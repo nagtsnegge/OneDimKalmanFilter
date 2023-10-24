@@ -13,6 +13,12 @@ class KalmanFilter {
 	public:
 
 		/**
+		 * @brief Construct a new Kalman Filter object. This is the default constructor.
+		 * 
+		 */
+		KalmanFilter(){};
+
+		/**
 		 * @brief Construct a new Kalman Filter object
 		 * 
 		 * @param estErr Standart deviation of the initial estimates value. (Estimate Error) 
